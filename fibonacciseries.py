@@ -1,0 +1,11 @@
+f=int(input("Enter First Number of Series"))
+s=int(input("Enter Second Number of Series"))
+n=int(input("Enter no of terms in Series"))
+i=1
+print(f,s,end='')
+while i<=n:
+    t=f+s
+    print(",",t,end='')
+    f=s
+    s=t
+    i=i+1
